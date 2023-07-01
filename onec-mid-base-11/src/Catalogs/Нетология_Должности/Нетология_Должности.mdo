@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c8e7a96-33c0-492a-a5b1-b925fde62047">
+  <producedTypes>
+    <objectType typeId="bc5d269e-acaa-47f4-9a2a-b007e546cf83" valueTypeId="62a7d79d-7c5c-4e3e-bcdb-d047ad0c71ea"/>
+    <refType typeId="9403d867-8d57-46eb-98c8-18792d315763" valueTypeId="d42a3999-d3dc-4bf3-8c68-9b08e52a25c3"/>
+    <selectionType typeId="33d6a28d-557a-4251-b590-477232840e10" valueTypeId="60b53a9d-c1b2-4245-b73a-54cdccba1106"/>
+    <listType typeId="61d84b8a-e49e-4906-8d17-f06ea45a4eb9" valueTypeId="cdf529b8-c50a-429f-9f56-64f47e5752e1"/>
+    <managerType typeId="1a3c3e9b-6be5-4b69-95b9-b2a694f67f27" valueTypeId="4b709d73-6d81-4e46-b825-167fbfb0b029"/>
+  </producedTypes>
+  <name>Нетология_Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Нетология_Должности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Нетология_Должности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
